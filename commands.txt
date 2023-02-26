@@ -10,6 +10,6 @@ git checkout {branch name} // switch to branch
 git merge {branch name} // merge branch with current branch
 git log --graph //ensure that branches merged
 git remote add origin {github repo link} // add remote repo
-git push // push the current banch to the remote repo
-git push origin {branch name} // push specific branch to reote origin
+git push // push the current branch to the remote repo
+git push origin {branch name} // push specific branch to remote origin
 git commit -a -m "msg" // add and commit some changes to files that already added
