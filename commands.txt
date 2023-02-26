@@ -1,0 +1,15 @@
+git init
+git add {file}
+git add . // add all new files or changes
+git commit -m "msg"
+touch {filename} //make new file 
+git log //get commit id
+git revert {commit id} //revert commit
+git branch {new branch name} // make new branch
+git checkout {branch name} // switch to branch
+git merge {branch name} // merge branch with current branch
+git log --graph //ensure that branches merged
+git remote add origin {github repo link} // add remote repo
+git push // push the current banch to the remote repo
+git push origin {branch name} // push specific branch to reote origin
+git commit -a -m "msg" // add and commit some changes to files that already added
